@@ -1,0 +1,12 @@
+def main():
+    # Récolter une valeur porte monaie
+    wallet = int(input("Donner la valeur du porte du contenu "))
+    # Création du produit qui aura pour valeur 50 euros
+    nikereact = 50
+    wallet = wallet - nikereact
+    # Affichage de l a nouvelle valeur du porte monaie après achat
+    print("La nouvelle valeur du porte monaie est :" + str(wallet))
+
+
+if __name__ == '__main__':
+    main()
