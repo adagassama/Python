@@ -1,0 +1,16 @@
+# Place de cinema
+age = int(input("Donner votre age svp: "))
+prix_mineur = 7
+prix_majeur = 12
+if age < 18:
+    rep = str(input("Voulez vous de pop corns ? Oui / Non ? "))
+    if rep == 'oui' or rep == 'OUI':
+        print("ça vous fera 5 euros de plus. Vous devez payer", prix_mineur+5, "euros")
+    elif rep == 'non' or rep == 'NON':
+        print("Vous devez payer", prix_mineur, "euros")
+elif age >= 18:
+    rep = str(input("Voulez vous de pop corns ? Oui / Non ? "))
+    if rep == 'oui':
+        print("ça vous fera 5 euros de plus. Vous devez payer", prix_majeur + 5, "euros")
+    elif rep == 'non' or rep == 'NON':
+        print("Vous devez payer", prix_majeur, "euros")
