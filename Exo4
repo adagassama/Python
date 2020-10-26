@@ -1,0 +1,14 @@
+# EXO 4
+from  random import randint
+# Jeux : Le juste prix
+nbre = randint(1,1000)
+prix = int(input("Entrer le prix :"))
+while prix != nbre :
+    if prix < nbre:
+        print("Petit")
+        prix = int(input(" Augmenter le prix: "))
+    else:
+        print("Grand")
+        prix = int(input(" Diminuer le prix: "))
+
+print("Vous avez gagné")
