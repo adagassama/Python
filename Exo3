@@ -1,0 +1,13 @@
+# EXO 3
+from random import shuffle
+# Générateur de phrase
+
+chaine = input("Saisir une suite de mots sous la forme (mot1/mot2/mot3/...)").split("/")
+print(chaine)
+# Mélanger les éléments de la liste de façon aléatoire
+shuffle (chaine)
+print(chaine)
+if len(chaine) < 10 :
+    print(chaine[0:2])
+else:
+    print(chaine[len(chaine)-3:len(chaine)])
