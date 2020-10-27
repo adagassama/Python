@@ -12,3 +12,12 @@ while prix != nbre :
         prix = int(input(" Diminuer le prix: "))
 
 print("Vous avez gagné")
+
+for i in range(10,0,-1):
+    print(i, "km à pied ça use les souliers")
+
+
+for i in range(1,11):
+    for j in range(1,11):
+        print(i,"*",j,"=",i*j)
+    print("====================")
